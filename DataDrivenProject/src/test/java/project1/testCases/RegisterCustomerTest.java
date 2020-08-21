@@ -54,7 +54,7 @@ public class RegisterCustomerTest extends TestBase {
 		
 		softassert.assertAll();
 		
-		Assert.fail("intentionally failed");
+		
 		
 		
 		
