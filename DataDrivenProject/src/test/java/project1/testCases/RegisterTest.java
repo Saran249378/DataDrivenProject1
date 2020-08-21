@@ -42,7 +42,7 @@ public class RegisterTest extends TestBase {
 		
 		//customizing reportng message
 
-		
+		Reporter.log("Register clicked");
 		
 		//To report Screenshot in reportng html 
 		
