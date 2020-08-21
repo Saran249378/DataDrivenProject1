@@ -15,9 +15,8 @@ public class RegisterCustomerTest extends TestBase {
   
 	@Test(dataProviderClass=TestUtil.class,dataProvider="dp")
   public void registerCustomerTest(String firtsName,String LastName,String Address,String city,String state,String Zipcode,
-		  String phonenumber,String SSN,String Username,String Password,String confirmpassword,String WelcomeText ) throws InterruptedException {
-		
-		SoftAssert softassert = new SoftAssert();
+		  String phonenumber,String SSN,String Username,String Password,String confirmpassword,String WelcomeText) throws InterruptedException {
+	
 		
 		type("FirstName_ID",firtsName);
 		type("LastName_ID",LastName);
@@ -48,11 +47,11 @@ public class RegisterCustomerTest extends TestBase {
 		
 		
 		
-		softassert.assertTrue(driver.getTitle().contains(WelcomeText));
+		Assert.assertTrue(driver.getTitle().contains(WelcomeText));
 	
 		log.debug("customer Registered succesfully");
 		
-		softassert.assertAll();
+
 		
 		
 		

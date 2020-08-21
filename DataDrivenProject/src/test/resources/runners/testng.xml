@@ -13,13 +13,13 @@
     <classes>
       <class name="project1.testCases.RegisterTest"/>
     </classes>
-  </test> <!-- RegisterTest -->
+  </test> <!-- registerTest -->
   
-  <test name="registerCustomerTest">
+ <!--  <test name="registerCustomerTest">
     <classes>
       <class name="project1.testCases.RegisterCustomerTest"/>
     </classes>
-  </test> <!-- RegisterCustomerTest -->
+  </test> <registerCustomerTest -->
   
  </suite> <!-- DataDriven -->
   
