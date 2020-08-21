@@ -1,0 +1,7 @@
+16:55:57,365 DEBUG devpinoyLogger:69 - config file loaded
+16:55:57,366 DEBUG devpinoyLogger:88 - OR file loaded
+16:55:58,499 DEBUG devpinoyLogger:100 - chrome launced
+16:56:00,067 DEBUG devpinoyLogger:111 - NAvigated tohttps://parabank.parasoft.com/parabank
+16:56:01,460 DEBUG devpinoyLogger:16 - Register clicked
+16:56:01,490 DEBUG devpinoyLogger:24 - Register clicked succesfully
+16:56:04,878 DEBUG devpinoyLogger:142 - Test execution completed
